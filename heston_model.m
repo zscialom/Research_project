@@ -6,16 +6,16 @@ close all
 
 %% General Parameters
 
-rf = 0.0186;
-T = 142/250;
+rf = 0.0224;
+T = 136/250;
 
 % CSCO
-S0_CSCO = 43.22;
+S0_CSCO = 43.07;
 K_CSCO = 55;
 q_CSCO = 0.0152;
 
 % GE
-S0_GE = 63;
+S0_GE = 62.86;
 K_GE = 35;
 q_GE = 0.0032;
 
