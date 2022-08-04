@@ -6,16 +6,16 @@ close all
 
 %% General Parameters
 
-rf = 0.0224;
-T = 136/250;
+rf = 0.0242;
+T = 130/250;
 
 % CSCO
-S0_CSCO = 43.07;
+S0_CSCO = 44.34;
 K_CSCO = 55;
 q_CSCO = 0.0152;
 
 % GE
-S0_GE = 62.86;
+S0_GE = 68.36;
 K_GE = 35;
 q_GE = 0.0032;
 
@@ -23,11 +23,11 @@ q_GE = 0.0032;
 OptSpec_CSCO = 'call';
 OptSpec_GE = 'put';
 
-V0_CSCO = 0.1125;          % initial variance of underlying asset
-ThetaV_CSCO = 0.0268;            % long-term variance of underlying asset
-Kappa_CSCO = 1.6181;             % mean-reversion speed for the variance of the underlying asset
-SigmaV_CSCO = 0.3121;            % volatility of the volatility
-RhoSV_CSCO = -0.6;       % correlation between Wiener processes
+V0_CSCO = 0.0825;          % initial variance of underlying asset
+ThetaV_CSCO = 0.0568;            % long-term variance of underlying asset
+Kappa_CSCO = 1.66;             % mean-reversion speed for the variance of the underlying asset
+SigmaV_CSCO = 0.3158;            % volatility of the volatility
+RhoSV_CSCO = -0.58;       % correlation between Wiener processes
 
 V0_GE = 0.3022;                % initial variance of underlying asset
 ThetaV_GE = 0.0108;            % long-term variance of underlying asset
